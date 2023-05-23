@@ -1,4 +1,6 @@
 {
+  "name": "backend",
+  "version": "1.0.0",
   "devDependencies": {
     "@types/express": "^4.17.17",
     "@types/node": "^20.2.3",
