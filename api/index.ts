@@ -6,4 +6,4 @@ app.get("/", (_req, res) => {
   res.send("Hello world!");
 });
 
-export default app;
+app.listen(3000, () => {});
