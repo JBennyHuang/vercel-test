@@ -3,10 +3,10 @@ import express from "express";
 
 const app = express();
 
-app.use("/api/diagnostics", diagnostics);
-
 app.get("/api", (_req, res) => {
   res.send("Hello world!");
 });
+
+app.use("/api/diagnostics", diagnostics);
 
 export default app;
