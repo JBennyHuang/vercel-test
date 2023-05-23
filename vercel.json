@@ -1,3 +1,3 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/backend/vercel" }]
+  "rewrites": [{ "source": "/(.*)", "destination": "/backend/api" }]
 }
