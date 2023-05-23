@@ -6,4 +6,8 @@ app.get("/", (_req, res) => {
   res.send("Hello world!");
 });
 
+app.get("/health", (_req, res) => {
+  res.send("Hello world!");
+});
+
 export default app;
