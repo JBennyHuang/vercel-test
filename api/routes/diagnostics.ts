@@ -1,7 +1,7 @@
 import { Router } from "express";
 
-export const healthRouter = Router();
+export const router = Router();
 
-healthRouter.get("/", (_req, res) => {
+router.get("/", (_req, res) => {
   res.send("Server is alive");
 });
