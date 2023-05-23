@@ -10,7 +10,6 @@
   },
   "scripts": {
     "start": "ts-node src/index.ts",
-    "build": "tsc",
-    "vercel-build": ""
+    "build": "tsc"
   }
 }
