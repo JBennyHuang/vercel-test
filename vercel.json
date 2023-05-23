@@ -1,4 +1,4 @@
 {
-  "functions": { "api/**/*": { "runtime": "@vercel/node@18" } },
+  "functions": { "api/**/*": { "runtime": "@vercel/node" } },
   "rewrites": [{ "source": "/api/(.*)", "destination": "/" }]
 }
